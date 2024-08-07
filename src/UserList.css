@@ -1,0 +1,28 @@
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.user-card {
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.user-card h2 {
+    margin: 0 0 10px;
+    font-size: 40px;
+    color: gold;
+}
+
+.user-card p {
+    margin: 5px 0;
+    font-size: 15px;
+    color: white;
+}
